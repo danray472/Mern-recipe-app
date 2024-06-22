@@ -1,0 +1,90 @@
+[
+    {
+      "name": "Spaghetti Carbonara",
+      "ingredients": [
+        "200g spaghetti",
+        "100g pancetta",
+        "2 large eggs",
+        "50g pecorino cheese",
+        "50g parmesan",
+        "2 cloves garlic",
+        "Salt and pepper"
+      ],
+      "instructions": "Cook the spaghetti. Fry the pancetta with garlic. Beat the eggs and mix with cheeses. Combine everything and serve.",
+      "imageUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1001491_11-2e0fa5c.jpg?quality=90&webp=true&resize=375,341",
+      "cookingTime": 30,
+      "userOwner": "66675541f0aac2fff15501d83"
+    },
+    {
+      "name": "Chicken Curry",
+      "ingredients": [
+        "500g chicken breast",
+        "1 onion",
+        "2 cloves garlic",
+        "1 tbsp ginger",
+        "2 tbsp curry powder",
+        "400ml coconut milk",
+        "200g tomatoes",
+        "Salt and pepper"
+      ],
+      "instructions": "Cook the onion, garlic, and ginger. Add the chicken and curry powder. Pour in the coconut milk and tomatoes. Simmer until cooked.",
+      "imageUrl": "https://www.cookingclassy.com/wp-content/uploads/2018/08/chicken-curry-11-768x1152.jpg",
+      "cookingTime": 45,
+      "userOwner": "6675541f0aac2fff15501d83"
+    },
+    {
+      "name": "Vegetable Stir Fry",
+      "ingredients": [
+        "1 bell pepper",
+        "1 carrot",
+        "100g broccoli",
+        "1 onion",
+        "2 cloves garlic",
+        "2 tbsp soy sauce",
+        "1 tbsp olive oil",
+        "Salt and pepper"
+      ],
+      "instructions": "Heat the oil in a pan. Cook the garlic and onion. Add the vegetables and stir fry. Add the soy sauce and cook until tender.",
+      "imageUrl": "https://therecipecritic.com/wp-content/uploads/2019/08/vegetable_stir_fry.jpg",
+      "cookingTime": 20,
+      "userOwner": "6675541f0aac2fff15501d83"
+    },
+    {
+      "name": "Beef Tacos",
+      "ingredients": [
+        "500g ground beef",
+        "1 onion",
+        "2 cloves garlic",
+        "1 tbsp chili powder",
+        "1 tsp cumin",
+        "1 tsp paprika",
+        "8 taco shells",
+        "100g shredded lettuce",
+        "100g cheddar cheese",
+        "Salsa",
+        "Sour cream"
+      ],
+      "instructions": "Cook the onion and garlic. Add the beef and spices. Serve in taco shells with lettuce, cheese, salsa, and sour cream.",
+      "imageUrl": "https://feelgoodfoodie.net/wp-content/uploads/2017/04/Ground-Beef-Tacos-9.jpg",
+      "cookingTime": 25,
+      "userOwner": "666755e8c3cd64da1097c2c68"
+    },
+    {
+      "name": "Pancakes",
+      "ingredients": [
+        "200g flour",
+        "300ml milk",
+        "2 large eggs",
+        "1 tbsp sugar",
+        "1 tsp baking powder",
+        "1 pinch salt",
+        "Butter",
+        "Maple syrup"
+      ],
+      "instructions": "Mix the dry ingredients. Beat the eggs with milk and add to the dry mix. Cook on a griddle with butter. Serve with maple syrup.",
+      "imageUrl": "https://www.allrecipes.com/recipe/21014/good-old-fashioned-pancakes/",
+      "cookingTime": 15,
+      "userOwner": "66755e8c3cd64da1097c2c68"
+    }
+  ]
+  

@@ -6,4 +6,5 @@ const UserSchema = new mongoose.Schema({
   savedRecipes: [{ type: mongoose.Schema.Types.ObjectId, ref: "Recipe" }],
 });
 
-export const UserModel = mongoose.model("users", UserSchema);
+// Change the collection name here (e.g., "users_project1")
+export const UserModel = mongoose.model("users_project1", UserSchema);

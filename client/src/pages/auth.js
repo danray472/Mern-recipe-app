@@ -33,7 +33,7 @@ const Login = () => {
       window.localStorage.setItem("userID", result.data.userID);
       navigate("/");
     } catch (error) {
-      console.error(error);
+      console.error("Login Error:", error);
     }
   };
 
@@ -42,19 +42,19 @@ const Login = () => {
       <form onSubmit={handleSubmit}>
         <h2>Login</h2>
         <div className="form-group">
-          <label htmlFor="username">Username:</label>
+          <label htmlFor="login-username">Username:</label>
           <input
             type="text"
-            id="username"
+            id="login-username"
             value={username}
             onChange={(event) => setUsername(event.target.value)}
           />
         </div>
         <div className="form-group">
-          <label htmlFor="password">Password:</label>
+          <label htmlFor="login-password">Password:</label>
           <input
             type="password"
-            id="password"
+            id="login-password"
             value={password}
             onChange={(event) => setPassword(event.target.value)}
           />
@@ -69,7 +69,6 @@ const Register = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
 
-  const [_, setCookies] = useCookies(["access_token"]);
   const navigate = useNavigate();
 
   const handleSubmit = async (event) => {
@@ -80,8 +79,9 @@ const Register = () => {
         password,
       });
       alert("Registration Completed! Now login.");
+      navigate("/"); // Redirect to login or homepage after registration
     } catch (error) {
-      console.error(error);
+      console.error("Registration Error:", error);
     }
   };
 
@@ -90,19 +90,19 @@ const Register = () => {
       <form onSubmit={handleSubmit}>
         <h2>Register</h2>
         <div className="form-group">
-          <label htmlFor="username">Username:</label>
+          <label htmlFor="register-username">Username:</label>
           <input
             type="text"
-            id="username"
+            id="register-username"
             value={username}
             onChange={(event) => setUsername(event.target.value)}
           />
         </div>
         <div className="form-group">
-          <label htmlFor="password">Password:</label>
+          <label htmlFor="register-password">Password:</label>
           <input
             type="password"
-            id="password"
+            id="register-password"
             value={password}
             onChange={(event) => setPassword(event.target.value)}
           />

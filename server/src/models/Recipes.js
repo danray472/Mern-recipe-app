@@ -15,7 +15,6 @@ const recipeSchema = mongoose.Schema({
     type: String,
     required: true,
   },
-
   imageUrl: {
     type: String,
     required: true,
@@ -26,7 +25,7 @@ const recipeSchema = mongoose.Schema({
   },
   userOwner: {
     type: mongoose.Schema.Types.ObjectId,
-    ref: "User",
+    ref: "users_project1", // Refers to UserModel with collection name "users_project1"
     required: true,
   },
 });

@@ -46,7 +46,7 @@ export const CreateRecipe = () => {
           headers: { authorization: cookies.access_token },
         }
       );
-
+     
       alert("Recipe Created");
       navigate("/");
     } catch (error) {
